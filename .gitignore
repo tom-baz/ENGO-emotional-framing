@@ -1,0 +1,7 @@
+# Sensitive data files
+data/*.xlsx
+data/*.csv
+data/*.json
+# Or specifically target your files:
+data/results_file_cop26_sentiment+Relevance+Group_new_240624_split_1.xlsx
+data/results_file_cop27_sentiment+Relevance+Group_new_240624_split_1.xlsx
