@@ -72,7 +72,7 @@ def create_group_datasets(grouped_df: pd.DataFrame) -> List[pd.DataFrame]:
     
     return group_datasets
 
-def process_cop_data(cop26_path: str, cop27_path: str) -> Tuple[List[pd.DataFrame], List[pd.DataFrame], pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def process_cop_data(cop26_path: str, cop27_path: str) -> Tuple[List[pd.DataFrame], List[pd.DataFrame], pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """
     Complete data processing pipeline for COP26 and COP27 data.
     
@@ -83,17 +83,19 @@ def process_cop_data(cop26_path: str, cop27_path: str) -> Tuple[List[pd.DataFram
         - COP27 overall aggregated data
         - COP26 grouped data (organization-level daily data)
         - COP27 grouped data (organization-level daily data)
+        - COP26 filtered relevance data (tweet-level data)
+        - COP27 filtered relevance data (tweet-level data)
     """
     # Load and filter data
     df_cop26, df_cop27 = load_and_filter_data(cop26_path, cop27_path)
     
     # Process datetime and sentiment
-    df_cop26 = process_datetime_and_sentiment(df_cop26)
-    df_cop27 = process_datetime_and_sentiment(df_cop27)
+    df_cop26_processed = process_datetime_and_sentiment(df_cop26)
+    df_cop27_processed = process_datetime_and_sentiment(df_cop27)
     
     # Aggregate by group and date
-    cop26_grouped = aggregate_by_group_and_date(df_cop26)
-    cop27_grouped = aggregate_by_group_and_date(df_cop27)
+    cop26_grouped = aggregate_by_group_and_date(df_cop26_processed)
+    cop27_grouped = aggregate_by_group_and_date(df_cop27_processed)
     
     # Define numeric columns for aggregation
     numeric_columns = ['Positive', 'Negative', 'Neutral', 'negative_percent', 
@@ -113,7 +115,8 @@ def process_cop_data(cop26_path: str, cop27_path: str) -> Tuple[List[pd.DataFram
     
     return (cop26_group_datasets, cop27_group_datasets, 
             cop26_overall, cop27_overall, 
-            cop26_grouped, cop27_grouped)
+            cop26_grouped, cop27_grouped,
+            df_cop26_processed, df_cop27_processed)
 
 # Define events for plotting
 EVENTS_COP26 = {

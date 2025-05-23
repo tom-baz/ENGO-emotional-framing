@@ -1,0 +1,36 @@
+Folder PATH listing
+Volume serial number is 3828-8FBE
+C:.
+|   .gitignore
+|   README.md
+|   repository_structure.txt
+|   
++---data
+|       README.md
+|       results_file_cop26_sentiment+Relevance+Group_new_240624_split_1.xlsx
+|       results_file_cop27_sentiment+Relevance+Group_new_240624_split_1.xlsx
+|       
++---figures
+|       .gitkeep
+|       
++---notebooks
+|       tweets_distribution_plots.ipynb
+|       tweets_distribution_plots_2.ipynb
+|       tweets_sentiment_distribution.ipynb
+|       
++---scripts
+|       .gitkeep
+|       
++---src
+|   |   data_processing.py
+|   |   plots.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           data_processing.cpython-311.pyc
+|           plots.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
+\---thesis
+        thesis24.11.24.pdf
+        
