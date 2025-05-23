@@ -15,22 +15,16 @@ C:.
 |       
 +---notebooks
 |       tweets_distribution_plots.ipynb
-|       tweets_distribution_plots_2.ipynb
 |       tweets_sentiment_distribution.ipynb
 |       
 +---scripts
-|       .gitkeep
+|       training_pipeline.py
 |       
 +---src
-|   |   data_processing.py
-|   |   plots.py
-|   |   __init__.py
-|   |   
-|   \---__pycache__
-|           data_processing.cpython-311.pyc
-|           plots.cpython-311.pyc
-|           __init__.cpython-311.pyc
-|           
+|       data_processing.py
+|       plots.py
+|       __init__.py
+|       
 \---thesis
         thesis24.11.24.pdf
         
