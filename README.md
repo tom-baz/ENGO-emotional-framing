@@ -34,7 +34,12 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
  3. ENGOs represented under other NGO banners
  4. ENGOs without any representatives at the COP venues
 
-## Key Findings
+- **Statistical Analysis**:
+  - **Mixed-effects models**: Controlling for temporal dynamics and organizational differences
+  - **Sentiment Index**: Daily aggregate measure calculated as (positive posts - negative posts) / total posts, ranging from -1 (most negative) to +1 (most positive)
+  - **Temporal analysis**: Chi-square tests comparing sentiment levels between conference start and end dates
+
+## Findings
 
 ### Figure 1: ENGO Participation Patterns
 ![ENGO Participation in COP26 and COP27](figures/Figure_1.png)
