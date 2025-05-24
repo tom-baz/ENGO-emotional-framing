@@ -37,11 +37,11 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
 ## Key Findings
 
 ### Figure 1: ENGO Participation Patterns
-![ENGO Participation in COP26 and COP27](figures/figure1_participation.png)
+![ENGO Participation in COP26 and COP27](figures/Figure_1.png)
 *Distribution of ENGOs across four participation categories.*
 
 ### Figure 2: Sentiment Distribution Comparison
-![Sentiment Distribution COP26 vs COP27](figures/figure2_sentiment_distribution.png)
+![Sentiment Distribution COP26 vs COP27](figures/Figure_2.png)
 *Comparative analysis revealing a notable shift toward negative sentiment from COP26 to COP27, with negative posts increasing from approximately 35% to 45% of total content.*
 
 ### Figure 5: Temporal Sentiment Trends
