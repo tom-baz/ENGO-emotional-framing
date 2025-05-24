@@ -21,18 +21,18 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
 ### Methodology
 
 - **Data Collection**: Twitter API extraction of ENGO posts from:
- - COP26 period: October 23 - November 19, 2021
- - COP27 period: October 29 - November 25, 2022
- 
+  - COP26 period: October 23 - November 19, 2021
+  - COP27 period: October 29 - November 25, 2022
+  
 - **Sentiment Analysis**: Fine-tuned RoBERTa model trained on climate discourse
- - Model accuracy: 82%
- - Three categories: Positive, Neutral, Negative
- 
+  - Model accuracy: 82%
+  - Three categories: Positive, Neutral, Negative
+  
 - **ENGO Classification**: Four groups based on COP participation:
- 1. ENGOs with representatives in state delegations
- 2. ENGOs with independent representatives
- 3. ENGOs represented under other NGO banners
- 4. ENGOs without any representatives at the COP venues
+  1. ENGOs with representatives in state delegations
+  2. ENGOs with independent representatives
+  3. ENGOs represented under other NGO banners
+  4. ENGOs without any representatives at the COP venues
 
 - **Statistical Analysis**:
   - **Mixed-effects models**: Controlling for temporal dynamics and organizational differences
