@@ -45,7 +45,7 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
 *Comparative analysis revealing a notable shift toward negative sentiment from COP26 to COP27, with negative posts increasing from approximately 35% to 45% of total content.*
 
 ### Figure 5: Temporal Sentiment Trends
-![Temporal Sentiment Analysis](figures/figure5_temporal_trends.png)
+![Temporal Sentiment Analysis](figures\Figure 5.png)
 *Daily sentiment index showing consistent patterns: initial optimism declining throughout both conferences, with COP26 displaying more dramatic fluctuations than COP27.*
 
 ### Main Conclusions
@@ -55,27 +55,3 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
 - **Overall Negativity**: COP27 exhibited more negative sentiment overall, possibly due to restricted civil society participation in Egypt
 - **Strategic Messaging**: Most active ENGOs included both reformative organizations (We Mean Business) and confrontational groups (Greenpeace, 350.org)
 
-## 🗂️ Repository Structure
-
-+---data
-|       README.md
-|       results_file_cop26_sentiment+Relevance+Group_new_240624_split_1.xlsx
-|       results_file_cop27_sentiment+Relevance+Group_new_240624_split_1.xlsx
-|       
-+---figures
-|       .gitkeep
-|       
-+---notebooks
-|       tweets_distribution_plots.ipynb
-|       tweets_sentiment_distribution.ipynb
-|       
-+---scripts
-|       training_pipeline.py
-|       
-+---src
-|       data_processing.py
-|       plots.py
-|       __init__.py
-|       
-\---thesis
-        thesis24.11.24.pdf
