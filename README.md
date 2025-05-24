@@ -45,7 +45,7 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
 *Comparative analysis revealing a notable shift toward negative sentiment from COP26 to COP27, with negative posts increasing from approximately 35% to 45% of total content.*
 
 ### Figure 5: Temporal Sentiment Trends
-![Temporal Sentiment Analysis](figures\Figure 5.png)
+![Temporal Sentiment Analysis](figures/Figure_5.png)
 *Daily sentiment index showing consistent patterns: initial optimism declining throughout both conferences, with COP26 displaying more dramatic fluctuations than COP27.*
 
 ### Main Conclusions
