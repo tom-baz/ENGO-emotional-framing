@@ -54,7 +54,7 @@ Emotions play an essential role in Environmental Non-Governmental Organization (
 *Daily sentiment index showing consistent patterns: initial optimism declining throughout both conferences, with COP26 displaying more dramatic fluctuations than COP27.*
 
 ### Figure 6: Group Sentiment Comparison - COP26
-![Comparison of sentiment trends between groups in COP26](Figures/figure_6.png)
+![Comparison of sentiment trends between groups in COP26](figures/Figure_6.png)
 *Daily sentiment index by ENGO group during COP26, revealing that insider organizations (Groups 1 & 2) demonstrated more negative sentiment than outsider organizations (Groups 3 & 4).*
 
 ### Main Conclusions
